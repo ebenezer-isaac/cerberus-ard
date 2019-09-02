@@ -21,3 +21,5 @@ void loop(){
 	  Serial.write(rx_byte);
   }
 }
+
+//https://learn.sparkfun.com/tutorials/fingerprint-scanner-hookup-guide#example-code-for-arduino
