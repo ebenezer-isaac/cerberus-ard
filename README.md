@@ -17,8 +17,7 @@
 * Buzzer</a>
 * A Few LEDs</a>
 
-### Pin Configuration ###
-
+### Pin Configuration - Refer datasheets/schematic.png to wire SPI Interface properly ###
 Item | Pin
 ------------- | -------------
 Fingerprint Reciever (Green) | <p align="center">A8</p>
@@ -33,7 +32,6 @@ SCK | <p align="center">52</p>
 Ethernet CS | <p align="center">3</p>
 SD Card CS | <p align="center">53</p>
 Keypad | <p align="center">22 to 29 <br>(4 row pins before 4 column pins)</p>
-
 
 ### Highlights ###
 * System has been designed for 3 classrooms each fitted with one arduino system with each classroom having 3 batches(referenced as divisions in the code)
