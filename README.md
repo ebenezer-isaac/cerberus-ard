@@ -19,18 +19,18 @@
 
 ### Pin Configuration ###
 * Fingerprint Scanner:
-	* Reciever    - A8(Green)
-	* Transmitter - A9(White)
-* LED GREEN : pin 10
-* LED RED   : pin 11
-* Buzzer    : pin 12
-* Button    :	pin 2
-* MISO      : pin 50
-* MOSI      : pin 51
-* SCK       : pin 52
+	* Reciever	- A8(Green)
+	* Transmitter	- A9(White)
+* LED GREEN	:pin 10
+* LED RED	: pin 11
+* Buzzer	: pin 12
+* Button	:	pin 2
+* MISO		: pin 50
+* MOSI		: pin 51
+* SCK		: pin 52
 * CS:
-	* Ethernet    - 3
-	* SD          - 53
+	* Ethernet	- 3
+	* SD		- 53
 * Keypad    : 22 to 29 (4 row pins before 4 column pins)
 
 ### Highlights ###
