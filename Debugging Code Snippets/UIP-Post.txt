@@ -1,0 +1,45 @@
+#include <UIPEthernet.h>
+#include <ArduinoHttpClient.h>
+#include "utility/logging.h"
+EthernetClient ether;
+unsigned long next;
+char serverAddress[] = "192.168.1.2";  // server address
+int port = 8084;
+
+void setup() {
+  Serial.begin(9600);
+  uint8_t mac[6] = {0x00, 0x01, 0x02, 0x03, 0x04, 0x05};
+  Ethernet.init(3); Serial.println("cs pin");
+  while (!Ethernet.begin(mac)) 
+  { //Configure IP address via DHCP
+    Serial.println("not Initiliazed");
+  } 
+  Serial.println("Initiliazed");
+  Serial.print(("localIP: "));
+  Serial.println(Ethernet.localIP());
+  Serial.print(("subnetMask: "));
+  Serial.println(Ethernet.subnetMask());
+  Serial.print(("gatewayIP: "));
+  Serial.println(Ethernet.gatewayIP());
+  Serial.print(("dnsServerIP: "));
+  Serial.println(Ethernet.dnsServerIP());
+  next = 0;
+  
+
+}
+HttpClient client = HttpClient(ether, serverAddress, port);
+void loop() {
+  Serial.println("making POST request");
+  String contentType = "application/x-www-form-urlencoded ";
+  String postData = "divi=2&roll=10&date=21&month=05&year=2019&min=20&hour=23";
+  client.post("/Attendance/bank", contentType, postData);
+  Serial.println("Post success");
+  int statusCode = client.responseStatusCode();
+  String response = client.responseBody();
+  Serial.print("Status code: ");
+  Serial.println(statusCode);
+  Serial.print("Response: ");
+  Serial.println(response);
+  Serial.println("Wait 30 seconds");
+  delay(30000);
+}

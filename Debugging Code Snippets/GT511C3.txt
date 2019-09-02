@@ -1,0 +1,23 @@
+#include "SoftwareSerial.h"
+SoftwareSerial gtSerial(A8, A9);
+int val = 0;     // variable for reading the pin status
+
+void setup() {
+ Serial.begin(9600);
+ gtSerial.begin(9600);
+
+}
+byte rx_byte = 0;
+
+void loop(){
+  if (Serial.available())
+  {
+	  rx_byte = Serial.read();
+	  gtSerial.write(rx_byte);
+  }
+  if (gtSerial.available())
+  {
+	  rx_byte = gtSerial.read();
+	  Serial.write(rx_byte);
+  }
+}
