@@ -17,6 +17,22 @@
 * Buzzer</a>
 * A Few LEDs</a>
 
+### Pin Configuration ###
+* Fingerprint Scanner:
+	* Reciever    - A8(Green)
+	* Transmitter - A9(White)
+* LED GREEN : pin 10
+* LED RED   : pin 11
+* Buzzer    : pin 12
+* Button    :	pin 2
+* MISO      : pin 50
+* MOSI      : pin 51
+* SCK       : pin 52
+* CS:
+	* Ethernet    - 3
+	* SD          - 53
+* Keypad    : 22 to 29 (4 row pins before 4 column pins)
+
 ### Highlights ###
 * System has been designed for 3 classrooms each fitted with one arduino system with each classroom having 3 batches(referenced as divisions in the code)
 * Attendance starts after identification of admin finger(ids 180 and above)
