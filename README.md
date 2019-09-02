@@ -20,9 +20,9 @@
 ### Highlights ###
 * System has been designed for 3 classrooms each fitted with one arduino system with each classroom having 3 batches(referenced as divisions in the code)
 * Attendance starts after identification of admin finger(ids 180 and above)
-* Stores Time, Date, Student Roll Number in 6 files(max 40 records each)
+* Stores Time, Date, Student Roll Number in 6 files(max 40 records each, you can increase as per requirement)
 	* This was implemented so that it doesnt overload the sync function(below)
-* Sync function sends data to remote server on the network which in turn inserts data into database
+* Sync function sends data to remote server on the network periodically and runs lightshow function when idle
 * Fully Functional Enrollment Modules(i.e. functions) with error control, error count and automatic try again
 	* Continous Enrollment
 	* Selected ID Enrollment
@@ -30,7 +30,7 @@
 	* Delete Selected ID
 	* Delete Selected Division
 	* Delete Whole Database
-* Web Server checks timetable for subject and inserts data into respective subject table
+* Web Server recieves data, checks timetable for subject and inserts data into respective subject table
 * Web Server Modules
 	* Login
 	* Admin Management
