@@ -21,18 +21,18 @@
 
 Item | Pin
 ------------- | -------------
-<p align="center">Fingerprint Reciever (Green)</p> | <p align="center">A8</p>
-<p align="center">Fingerprint Transmitter (White)</p> | <p align="center">A9</p>
-<p align="center">Green LED</p> | <p align="center">10</p>
-<p align="center">Red LED</p> | <p align="center">11</p>
-<p align="center">Buzzer</p> | <p align="center">12</p>
-<p align="center">Button</p> | <p align="center">2</p>
-<p align="center">MISO</p> | <p align="center">50</p>
-<p align="center">MOSI</p> | <p align="center">51</p>
-<p align="center">SCK</p> | <p align="center">52</p>
-<p align="center">Ethernet CS</p> | <p align="center">3</p>
-<p align="center">SD Card CS</p> | <p align="center">53</p>
-<p align="center">Keypad</p> | <p align="center">22 to 29 <br>(4 row pins before 4 column pins)</p>
+Fingerprint Reciever (Green) | <p align="center">A8</p>
+Fingerprint Transmitter (White) | <p align="center">A9</p>
+Green LED | <p align="center">10</p>
+Red LED | <p align="center">11</p>
+Buzzer | <p align="center">12</p>
+Button | <p align="center">2</p>
+MISO | <p align="center">50</p>
+MOSI | <p align="center">51</p>
+SCK | <p align="center">52</p>
+Ethernet CS | <p align="center">3</p>
+SD Card CS | <p align="center">53</p>
+Keypad | <p align="center">22 to 29 <br>(4 row pins before 4 column pins)</p>
 
 
 ### Highlights ###
