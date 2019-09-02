@@ -18,20 +18,22 @@
 * A Few LEDs</a>
 
 ### Pin Configuration ###
-* Fingerprint Scanner:
-	* Reciever	- A8(Green)
-	* Transmitter	- A9(White)
-* LED GREEN	:pin 10
-* LED RED	: pin 11
-* Buzzer	: pin 12
-* Button	:	pin 2
-* MISO		: pin 50
-* MOSI		: pin 51
-* SCK		: pin 52
-* CS:
-	* Ethernet	- 3
-	* SD		- 53
-* Keypad    : 22 to 29 (4 row pins before 4 column pins)
+
+Item | Pin
+------------- | -------------
+<p align="center">Fingerprint Reciever (Green)</p> | <p align="center">A8</p>
+<p align="center">Fingerprint Transmitter (White)</p> | <p align="center">A9</p>
+<p align="center">Green LED</p> | <p align="center">10</p>
+<p align="center">Red LED</p> | <p align="center">11</p>
+<p align="center">Buzzer</p> | <p align="center">12</p>
+<p align="center">Button</p> | <p align="center">2</p>
+<p align="center">MISO</p> | <p align="center">50</p>
+<p align="center">MOSI</p> | <p align="center">51</p>
+<p align="center">SCK</p> | <p align="center">52</p>
+<p align="center">Ethernet CS</p> | <p align="center">3</p>
+<p align="center">SD Card CS</p> | <p align="center">53</p>
+<p align="center">Keypad</p> | <p align="center">22 to 29 <br>(4 row pins before 4 column pins)</p>
+
 
 ### Highlights ###
 * System has been designed for 3 classrooms each fitted with one arduino system with each classroom having 3 batches(referenced as divisions in the code)
