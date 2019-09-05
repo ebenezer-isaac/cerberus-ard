@@ -1,5 +1,5 @@
 <h1 align="center">
-	<img width="80" src="https://raw.githubusercontent.com/iamkotwala/cerberus/master/logo-circle.png">
+	<img width="80" src="https://raw.githubusercontent.com/ebenezerv99/cerberus-web/master/Logo/logo-circle.png">
 	<br>
 	C E R B E R U S
 	<br>
@@ -60,14 +60,14 @@ Keypad | <p align="center">22 to 29 <br>(4 row pins before 4 column pins)</p>
 
 ### Architecture of the system ###
 <h1 align="center">
-	<img width="600" src="Architecture.png">
+	<img width="600" src="https://raw.githubusercontent.com/ebenezerv99/cerberus-web/master/Documentation/Architecture.jpg">
 	<br>
 	<br>
 </h1>
 
 ### Programmatic Flow of the Sketch ###
 <h1 align="center">
-	<img width="600" src="FlowChart.jpg">
+	<img width="600" src="https://raw.githubusercontent.com/ebenezerv99/cerberus-web/master/Documentation/FlowChart.jpg">
 	<br>
 	<br>
 </h1>
