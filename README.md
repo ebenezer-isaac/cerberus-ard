@@ -10,7 +10,7 @@
 * <a href="https://robu.in/product/atmel-mcu-atmega16u2-mega-2560-r3-improved-version-ch340g-cable-arduino-mega-2560-transparent-acrylic-case-arduino-mega-2560/?gclid=Cj0KCQjwtMvlBRDmARIsAEoQ8zQRZXfmCU2xr6cv7uVrZ77PqEXLFcOEKLTSkX0KvOt5glzpWTEVXW4aAsJrEALw_wcB">Arduino Mega 2560 R3</a>
 * <a href="https://robu.in/product/fingerprint-scanner-ttl-gt-511c3/">GT511C3</a>
 * <a href="https://robu.in/product/serial-2004-20-x-4-iici2ctwi-blue-backlight-lcd-module/?gclid=CjwKCAjwza_mBRBTEiwASDWVvgv5-7Z2ck3JDQexbm28OYU8A0GNDzFmfHsDwZYOSB_mKJHKnKkA3RoCr78QAvD_BwE">2004 Character Display</a>
-* <a href="https://robu.in/product/ethernet-module-enc28j60/">ENC28J60</a> <a href="https://robu.in/product/ethernet-w5100-shield-network-expansion-board-w-micro-sd-card-slot-arduino/?gclid=Cj0KCQjwh8jrBRDQARIsAH7BsXfyAv1JOdpp_g3OTss2cMNAOdir6VmkLdGaVFOiE1CPMtEArwOT1ckaAsS-EALw_wcB">W5100</a> is suggested instead of this module 
+* <a href="https://robu.in/product/ethernet-module-enc28j60/">ENC28J60</a> (<a href="https://robu.in/product/ethernet-w5100-shield-network-expansion-board-w-micro-sd-card-slot-arduino/?gclid=Cj0KCQjwh8jrBRDQARIsAH7BsXfyAv1JOdpp_g3OTss2cMNAOdir6VmkLdGaVFOiE1CPMtEArwOT1ckaAsS-EALw_wcB">W5100</a> is suggested instead of this module)
 * <a href="https://robu.in/product/tiny-rtc-real-time-clock-ds1307-i2c-iic-module-for-arduino/">DS1307</a>
 * <a href="https://robu.in/product/sd-card-reading-writing-module-arduino/?gclid=Cj0KCQjwn8_mBRCLARIsAKxi0GKwAo3eZptNW_0JqorbEiFiDLG7JqhbTHO8yQ2QhS7Gb-Pc-_A4DjAaAudhEALw_wcB">SD Card Module</a>
 * <a href="https://robu.in/product/4x4-matrix-keypad-membrane-switch-arduino-arm-mcu/">4x4 Membrane Keypad</a>
