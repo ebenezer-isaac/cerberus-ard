@@ -1,0 +1,11 @@
+Deleted DB 00:00:00 1970/00/00
+Added Admin No :1 00:00:00 1970/00/00
+Enrolled 2 001 00:00:00 1970/00/00
+Deleted Class SY 00:00:00 1970/00/00
+Enrolled 1 056 00:00:00 1970/00/00
+Deleted Class FY 00:00:00 1970/00/00
+Enrolled 0 036 00:00:00 1970/00/00
+Enrolled 2 001 00:00:00 1970/00/00
+Deleted Class TY 00:00:00 1970/00/00
+Enrolled 2 001 00:00:00 1970/00/00
+Enrolled 2 001 00:00:00 1970/00/00
